@@ -25,7 +25,10 @@ SECRET_KEY = 'bj*__@fq93r@xm7mg)p%hrd*erui1uu$m9j*h4v5&l^(0&%m=c'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    '0.0.0.0',
+    'magvayby.pythonanywhere.com',
+]
 
 
 # Application definition
